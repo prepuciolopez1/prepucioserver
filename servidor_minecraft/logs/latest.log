@@ -1,254 +1,22 @@
-[01Jul2025 19:46:35.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[01Jul2025 19:46:35.930] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[01Jul2025 19:46:36.145] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Jul2025 19:46:36.194] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/prepucioserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[01Jul2025 19:46:36.421] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jul2025 19:46:36.423] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jul2025 19:46:36.424] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jul2025 19:46:36.426] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jul2025 19:46:36.592] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[01Jul2025 19:46:38.168] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Jul2025 19:46:38.194] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[01Jul2025 19:46:44.547] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[01Jul2025 19:46:44.550] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[01Jul2025 19:46:46.007] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/prepucioserver/servidor_minecraft/config/jeg-common.toml is not correct. Correcting
-[01Jul2025 19:46:46.009] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.009] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.010] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.010] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.enableBlockRemovalOnExplosions was corrected from null to its default, true. 
-[01Jul2025 19:46:46.010] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.enableGlassBreaking was corrected from null to its default, true. 
-[01Jul2025 19:46:46.011] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.fragileBlockDrops was corrected from null to its default, true. 
-[01Jul2025 19:46:46.011] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.fragileBlockBreakChance was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.setFireToBlocks was corrected from null to its default, true. 
-[01Jul2025 19:46:46.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.gunDurability was corrected from null to its default, true. 
-[01Jul2025 19:46:46.013] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.gunJamming was corrected from null to its default, true. 
-[01Jul2025 19:46:46.013] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.gunAdvantage was corrected from null to its default, true. 
-[01Jul2025 19:46:46.013] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.underwaterFiring was corrected from null to its default, false. 
-[01Jul2025 19:46:46.013] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.growBoundingBoxAmount was corrected from null to its default, 0.3. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableHeadShots was corrected from null to its default, true. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.headShotDamageMultiplier was corrected from null to its default, 1.25. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.criticalDamageMultiplier was corrected from null to its default, 1.5. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.ignoreLeaves was corrected from null to its default, true. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableKnockback was corrected from null to its default, true. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.knockbackStrength was corrected from null to its default, 0.15. 
-[01Jul2025 19:46:46.014] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.improvedHitboxes was corrected from null to its default, false. 
-[01Jul2025 19:46:46.016] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.016] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.booSpawning was corrected from null to its default, true. 
-[01Jul2025 19:46:46.017] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.ghoulSpawning was corrected from null to its default, true. 
-[01Jul2025 19:46:46.017] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.creepersDropLiveGrenades was corrected from null to its default, true. 
-[01Jul2025 19:46:46.018] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.network was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.018] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.network.projectileTrackingRange was corrected from null to its default, 200.0. 
-[01Jul2025 19:46:46.018] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.019] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.enabled was corrected from null to its default, true. 
-[01Jul2025 19:46:46.019] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.angerHostileMobs was corrected from null to its default, true. 
-[01Jul2025 19:46:46.020] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.unsilencedRange was corrected from null to its default, 20.0. 
-[01Jul2025 19:46:46.020] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.exemptMobs was corrected from null to its default, []. 
-[01Jul2025 19:46:46.020] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.020] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles.explosionRadius was corrected from null to its default, 5.0. 
-[01Jul2025 19:46:46.021] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.021] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades.explosionRadius was corrected from null to its default, 5.0. 
-[01Jul2025 19:46:46.022] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.022] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.022] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.022] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.radius was corrected from null to its default, 15.0. 
-[01Jul2025 19:46:46.022] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.durationMax was corrected from null to its default, 220. 
-[01Jul2025 19:46:46.024] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.durationMin was corrected from null to its default, 10. 
-[01Jul2025 19:46:46.024] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.angleEffect was corrected from null to its default, 170.0. 
-[01Jul2025 19:46:46.024] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.angleAttenuationMax was corrected from null to its default, 0.75. 
-[01Jul2025 19:46:46.024] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.raytraceOpaqueBlocks was corrected from null to its default, true. 
-[01Jul2025 19:46:46.024] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.blindMobs was corrected from null to its default, true. 
-[01Jul2025 19:46:46.025] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.025] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.025] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.radius was corrected from null to its default, 15.0. 
-[01Jul2025 19:46:46.025] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.durationMax was corrected from null to its default, 280. 
-[01Jul2025 19:46:46.026] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.durationMin was corrected from null to its default, 100. 
-[01Jul2025 19:46:46.026] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.angleEffect was corrected from null to its default, 360.0. 
-[01Jul2025 19:46:46.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.angleAttenuationMax was corrected from null to its default, 0.75. 
-[01Jul2025 19:46:46.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.raytraceOpaqueBlocks was corrected from null to its default, false. 
-[01Jul2025 19:46:46.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.panicMobs was corrected from null to its default, true. 
-[01Jul2025 19:46:46.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.030] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread.spreadThreshold was corrected from null to its default, 300. 
-[01Jul2025 19:46:46.030] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread.maxCount was corrected from null to its default, 10. 
-[01Jul2025 19:46:46.038] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/prepucioserver/servidor_minecraft/config/In Your World Configuration.toml is not correct. Correcting
-[01Jul2025 19:46:46.039] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.040] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global.Night Max Probability was corrected from null to its default, 48000.0. 
-[01Jul2025 19:46:46.040] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global.Night Min Probability was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.041] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global.Random Night was corrected from null to its default, true. 
-[01Jul2025 19:46:46.042] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.042] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global.Sounds Min Probability was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.043] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global.Sounds Max Probability was corrected from null to its default, 300.0. 
-[01Jul2025 19:46:46.043] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global.Enable Mod Sounds? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.044] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global.Sounds 1: How often will the sounds be heard?  was corrected from null to its default, 0.008. 
-[01Jul2025 19:46:46.044] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global.Sounds 2: How often will the sounds be heard?  was corrected from null to its default, 0.005. 
-[01Jul2025 19:46:46.044] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds  - Global.Sounds 3: How often will the sounds be heard?  was corrected from null to its default, 0.008. 
-[01Jul2025 19:46:46.045] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player Bed Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.045] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player Bed Spawn.Bed Minimum Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.045] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player Bed Spawn.Bed Maximum Spawn was corrected from null to its default, 200.0. 
-[01Jul2025 19:46:46.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken is attacked Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken is attacked Spawn.Chicken Hurt Min Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken is attacked Spawn.Chicken Hurt Max Spawn was corrected from null to its default, 30.0. 
-[01Jul2025 19:46:46.047] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.047] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Invisible Attack Min Spawn was corrected from null to its default, 16000.0. 
-[01Jul2025 19:46:46.048] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Invisible Attack Max Spawn was corrected from null to its default, 40000.0. 
-[01Jul2025 19:46:46.048] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Invisible Attack Min Despawn was corrected from null to its default, 400.0. 
-[01Jul2025 19:46:46.048] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Invisible Attack Max Despawn was corrected from null to its default, 900.0. 
-[01Jul2025 19:46:46.048] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Min ProbabilitySpawnH was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.049] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Max ProbabilitySpawnH was corrected from null to its default, 4.0. 
-[01Jul2025 19:46:46.049] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Invisible Entity Attack.Enable Invisible Attack Entity? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.050] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.050] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Min Spawn Fake Structure 1 was corrected from null to its default, 6100.0. 
-[01Jul2025 19:46:46.050] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Max Spawn Fake Structure 1 was corrected from null to its default, 40000.0. 
-[01Jul2025 19:46:46.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Min Spawn Fake Structure 2 was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Max Spawn Fake Structure 2 was corrected from null to its default, 40000.0. 
-[01Jul2025 19:46:46.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Set the Min duration of the fake structure 1 was corrected from null to its default, 1000.0. 
-[01Jul2025 19:46:46.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Set the Max duration of the fake structure 1 was corrected from null to its default, 3500.0. 
-[01Jul2025 19:46:46.052] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Set the Min duration of the fake structure 2 was corrected from null to its default, 1000.0. 
-[01Jul2025 19:46:46.052] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Set the Max duration of the fake structure 2 was corrected from null to its default, 3500.0. 
-[01Jul2025 19:46:46.052] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Spawn Fake Structure Number 1? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.052] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Fake Structures Spawn.Spawn Fake Structure Number 2? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.054] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.054] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Despawn Torches? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.055] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Random Torch Despawn was corrected from null to its default, 0.28. 
-[01Jul2025 19:46:46.055] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Min Torch Time Despawn was corrected from null to its default, 1200.0. 
-[01Jul2025 19:46:46.055] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Max Torch Time Despawn was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.055] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Despawn Wooden Blocks? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.055] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Random Wooden Blocks Despawn was corrected from null to its default, 0.007. 
-[01Jul2025 19:46:46.057] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Min Wooden Blocks Time Despawn was corrected from null to its default, 1200.0. 
-[01Jul2025 19:46:46.058] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches and Blocks.Max Wooden Blocks Time Despawn was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.062] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.063] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus.Despawn Hijitus was corrected from null to its default, true. 
-[01Jul2025 19:46:46.064] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus.Despawn Hijitus Min was corrected from null to its default, 100.0. 
-[01Jul2025 19:46:46.064] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus.Despawn Hijitus Max was corrected from null to its default, 0.0. 
-[01Jul2025 19:46:46.064] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus.Enable Despawn Hijitus Timer? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.065] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus.Activate Darkness and Blindness? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.067] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.067] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Min Spawn Invisible Stalker Entity was corrected from null to its default, 8400.0. 
-[01Jul2025 19:46:46.068] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Max Spawn Invisible Stalker Entity was corrected from null to its default, 24000.0. 
-[01Jul2025 19:46:46.068] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Spawn Invisible Flying Entity Stalker? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.068] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Despawn Invisible Flying Stalker around the player in the distance of was corrected from null to its default, 45.0. 
-[01Jul2025 19:46:46.068] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Despawn Invisible Flying Entity Stalker Min was corrected from null to its default, 500.0. 
-[01Jul2025 19:46:46.068] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Despawn Invisible Flying Entity Stalker Max was corrected from null to its default, 800.0. 
-[01Jul2025 19:46:46.070] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Invisible Stalker Entity.Enable Despawn Invisible Flying Entity Stalker? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.075] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus Stalker Island was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.075] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hijitus Stalker Island.Despawn Hijitus Stalker Island around the player in the distance was corrected from null to its default, 110.0. 
-[01Jul2025 19:46:46.080] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity.Enable Stalker Entity? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity.Stalker Min Probability Spawn was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity.Stalker Max Probability Spawn was corrected from null to its default, 40000.0. 
-[01Jul2025 19:46:46.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity.Stalker Max Random Spawn was corrected from null to its default, 3.0. 
-[01Jul2025 19:46:46.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity.Stalker Min Probability was corrected from null to its default, 500.0. 
-[01Jul2025 19:46:46.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Entity.Stalker Max Probability was corrected from null to its default, 800.0. 
-[01Jul2025 19:46:46.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/prepucioserver/servidor_minecraft/config/000.jar Configuration.toml is not correct. Correcting
-[01Jul2025 19:46:46.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global.Change Entities Minimum Ticks Spawn was corrected from null to its default, 36000.0. 
-[01Jul2025 19:46:46.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global.Change Entities Maximum Ticks Spawn was corrected from null to its default, 108000.0. 
-[01Jul2025 19:46:46.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global.Min Despawn Probability was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global.Max Despawn Probability was corrected from null to its default, 3.0. 
-[01Jul2025 19:46:46.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global.Enable Villager Stalker? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.097] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Spawn Entities - Global.Despawn entities randomly? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.099] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Villager Stalker Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.099] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Villager Stalker Spawn.Villager Stalker Minimum Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Villager Stalker Spawn.Villager Stalker Maximum Spawn was corrected from null to its default, 4.0. 
-[01Jul2025 19:46:46.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Villager Stalker Spawn.Villager Stalker Minimum Ticks Despawn was corrected from null to its default, 400.0. 
-[01Jul2025 19:46:46.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Villager Stalker Spawn.Villager Stalker  Maximum Ticks Despawn was corrected from null to its default, 1000.0. 
-[01Jul2025 19:46:46.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken Spawn Probablity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken Spawn Probablity.Chicken Minimum Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken Spawn Probablity.Chicken Maximum Spawn was corrected from null to its default, 30.0. 
-[01Jul2025 19:46:46.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken Spawn Probablity.Chicken Minimum Ticks Despawn was corrected from null to its default, 600.0. 
-[01Jul2025 19:46:46.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken Spawn Probablity.Chicken Maximum Ticks Despawn was corrected from null to its default, 900.0. 
-[01Jul2025 19:46:46.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Chicken Spawn Probablity.Enable Chicken Spawn? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Global Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Global Spawn.Minimum Ticks Spawn was corrected from null to its default, 40000.0. 
-[01Jul2025 19:46:46.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Change Global Spawn.Maximum Ticks Spawn was corrected from null to its default, 108000.0. 
-[01Jul2025 19:46:46.107] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Villagers Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.107] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Villagers Spawn.Flying Villagers Minimum Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.108] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Villagers Spawn.Flying Villagers Maximum Spawn was corrected from null to its default, 3.0. 
-[01Jul2025 19:46:46.110] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Villagers Spawn.Flying Villagers Minimum Ticks Despawn was corrected from null to its default, 1000.0. 
-[01Jul2025 19:46:46.110] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Flying Villagers Spawn.Flying Villagers Maximum Ticks Despawn was corrected from null to its default, 1600.0. 
-[01Jul2025 19:46:46.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Cow and Chicken Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Cow and Chicken Spawn.Stalker Cow Minimum Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Cow and Chicken Spawn.Stalker Cow Maximum Spawn was corrected from null to its default, 4.0. 
-[01Jul2025 19:46:46.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Cow and Chicken Spawn.Stalker Chicken Minimum Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Cow and Chicken Spawn.Stalker Chicken Maximum Spawn was corrected from null to its default, 4.0. 
-[01Jul2025 19:46:46.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Stalker Cow and Chicken Spawn.Enable Chicken and Cow Spawn? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villagers Rain was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villagers Rain.Rain Villagers Minimum Ticks Spawn was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villagers Rain.Rain Villagers Maximum Ticks Spawn was corrected from null to its default, 20000.0. 
-[01Jul2025 19:46:46.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Rate Balloon and 000 - Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Rate Balloon and 000 - Global.Minimum Ticks Spawn was corrected from null to its default, 36000.0. 
-[01Jul2025 19:46:46.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Rate Balloon and 000 - Global.Maximum Ticks Spawn was corrected from null to its default, 64000.0. 
-[01Jul2025 19:46:46.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Rate Balloon and 000 - Global.Enable 000 and 000 Hostile? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global.Enable Night randomly? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global.Randomly Night Min Ticks was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Night Global.Randomly Night Max Ticks was corrected from null to its default, 48000.0. 
-[01Jul2025 19:46:46.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Smile Block was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Smile Block.Enable Smile Block Spawn was corrected from null to its default, true. 
-[01Jul2025 19:46:46.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches Despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches Despawn.Enable Torches Randomly Despawn? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches Despawn.Random Torch Despawn Probability was corrected from null to its default, 0.16. 
-[01Jul2025 19:46:46.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches Despawn.Start despawn from (ticks) was corrected from null to its default, 1200.0. 
-[01Jul2025 19:46:46.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Torches Despawn.End spawn chance from (ticks) was corrected from null to its default, 6000.0. 
-[01Jul2025 19:46:46.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Random Sounds Min Probability was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Random Sounds Max Probability was corrected from null to its default, 180.0. 
-[01Jul2025 19:46:46.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Enable Mod Sounds? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Sounds 1: How often will the sounds be heard?  was corrected from null to its default, 0.004. 
-[01Jul2025 19:46:46.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Sounds 2: How often will the sounds be heard?  was corrected from null to its default, 0.004. 
-[01Jul2025 19:46:46.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Sounds 3: How often will the sounds be heard?  was corrected from null to its default, 0.007. 
-[01Jul2025 19:46:46.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Sounds Global.Enable Entities Spawn in Villages? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player goes to bed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player goes to bed.Activate Spawn Chicken? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player goes to bed.Max Chicken Bed Spawn Rate was corrected from null to its default, 300.0. 
-[01Jul2025 19:46:46.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Player goes to bed.Min Chicken Bed Spawn Rate was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:46.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Enable if Player Open the Door? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Enable if put a glass block was corrected from null to its default, true. 
-[01Jul2025 19:46:46.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Enable Entity Open the Door? was corrected from null to its default, 80.0. 
-[01Jul2025 19:46:46.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Enable Entity Close the Door? was corrected from null to its default, 80.0. 
-[01Jul2025 19:46:46.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Enable Entity can break glass? was corrected from null to its default, 55.0. 
-[01Jul2025 19:46:46.138] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Probability Break Glass Block when player is nearby was corrected from null to its default, true. 
-[01Jul2025 19:46:46.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Probability Entity break glass around the player was corrected from null to its default, 3.0. 
-[01Jul2025 19:46:46.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Break Glass Blocks Distance was corrected from null to its default, -10.0. 
-[01Jul2025 19:46:46.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Min Probability Break Glass Block was corrected from null to its default, 24000.0. 
-[01Jul2025 19:46:46.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Door and Glass.Max Probability Break Glass Block was corrected from null to its default, 64000.0. 
-[01Jul2025 19:46:46.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global.Spawn Eye? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global.Spawn Eye Min Probability was corrected from null to its default, 24000.0. 
-[01Jul2025 19:46:46.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global.Spawn Eye Max Probability was corrected from null to its default, 64000.0. 
-[01Jul2025 19:46:46.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global.Spawn Eye Structure was corrected from null to its default, true. 
-[01Jul2025 19:46:46.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global.Change Max Probability Spawn  was corrected from null to its default, 4.0. 
-[01Jul2025 19:46:46.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Eye Entity Global.Change Despawn was corrected from null to its default, 150.0. 
-[01Jul2025 19:46:46.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon.Explode Balloon Probability was corrected from null to its default, 80.0. 
-[01Jul2025 19:46:46.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon.Balloon Structure Probability was corrected from null to its default, 2.0. 
-[01Jul2025 19:46:46.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon.000 Cross Probability was corrected from null to its default, 3.0. 
-[01Jul2025 19:46:46.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon.Normal Cross Probability was corrected from null to its default, 3.0. 
-[01Jul2025 19:46:46.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon.Game Crash? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Balloon.Enable Balloon Spawn? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Eye Block was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Eye Block.Probability Eye Block Spawn was corrected from null to its default, 150.0. 
-[01Jul2025 19:46:46.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Eye Block.Enable Eye Block Touch? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Eye Block.Max Spawn Maze Probability was corrected from null to its default, 150.0. 
-[01Jul2025 19:46:46.173] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Eye Block.Enable Eye Block? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Enable Fog was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Enable Effects was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Enable Maze by default was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Enable Adaptive Maze was corrected from null to its default, false. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Enable Maze Spawn? was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Blindness was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Darkness was corrected from null to its default, true. 
-[01Jul2025 19:46:46.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Maze.Slowness was corrected from null to its default, true. 
-[01Jul2025 19:46:46.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Glass and Chat was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:46.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Glass and Chat.Glass 000 and Villager was corrected from null to its default, true. 
-[01Jul2025 19:46:46.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Glass and Chat.Chat Flood Eye Entity was corrected from null to its default, true. 
-[01Jul2025 19:46:46.208] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[01Jul2025 19:46:46.424] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[01Jul2025 19:46:46.426] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[01Jul2025 19:46:46.427] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[01Jul2025 19:46:46.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[01Jul2025 19:46:47.017] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Jul2025 06:17:41.187] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Jul2025 06:17:41.193] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[02Jul2025 06:17:42.256] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Jul2025 06:17:42.412] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/prepucioserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Jul2025 06:17:42.931] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2025 06:17:42.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2025 06:17:42.939] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2025 06:17:42.940] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2025 06:17:43.124] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[02Jul2025 06:17:45.042] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Jul2025 06:17:45.062] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Jul2025 06:17:54.246] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[02Jul2025 06:17:54.247] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[02Jul2025 06:17:55.658] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[02Jul2025 06:17:55.997] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[02Jul2025 06:17:55.998] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[02Jul2025 06:17:55.998] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[02Jul2025 06:17:56.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[02Jul2025 06:17:56.734] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -263,15 +31,15 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[01Jul2025 19:46:47.022] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Jul2025 19:46:47.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[01Jul2025 19:46:47.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[01Jul2025 19:46:47.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[01Jul2025 19:46:48.243] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Jul2025 19:46:48.292] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/assets/.mcassetsroot' uses unexpected schema
-[01Jul2025 19:46:48.292] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/data/.mcassetsroot' uses unexpected schema
-[01Jul2025 19:46:50.285] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[01Jul2025 19:46:50.286] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+[02Jul2025 06:17:56.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Jul2025 06:17:56.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[02Jul2025 06:17:56.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[02Jul2025 06:17:57.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[02Jul2025 06:17:58.588] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Jul2025 06:17:59.778] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/assets/.mcassetsroot' uses unexpected schema
+[02Jul2025 06:17:59.779] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prepucioserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/data/.mcassetsroot' uses unexpected schema
+[02Jul2025 06:18:02.452] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[02Jul2025 06:18:02.453] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -287,183 +55,37 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[01Jul2025 19:46:50.458] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2152 advancements
-[01Jul2025 19:46:51.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Jul2025 19:46:51.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Jul2025 19:46:51.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Jul2025 19:46:51.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Jul2025 19:46:51.485] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Jul2025 19:46:51.507] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Jul2025 19:46:51.607] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Jul2025 19:46:51.607] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Jul2025 19:46:51.607] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Jul2025 19:46:51.608] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Jul2025 19:46:51.621] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jeg-server.toml is not correct. Correcting
-[01Jul2025 19:46:51.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:51.623] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:51.623] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.alphaOverlay was corrected from null to its default, 255. 
-[01Jul2025 19:46:51.623] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.alphaFadeThreshold was corrected from null to its default, 40. 
-[01Jul2025 19:46:51.623] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.soundPercentage was corrected from null to its default, 0.05. 
-[01Jul2025 19:46:51.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.soundFadeThreshold was corrected from null to its default, 90. 
-[01Jul2025 19:46:51.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.ringVolume was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:51.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:51.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio.gunShotMaxDistance was corrected from null to its default, 100.0. 
-[01Jul2025 19:46:51.626] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio.reloadMaxDistance was corrected from null to its default, 24.0. 
-[01Jul2025 19:46:51.627] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.enableCameraRecoil was corrected from null to its default, true. 
-[01Jul2025 19:46:51.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.cooldownThreshold was corrected from null to its default, 0. 
-[01Jul2025 19:46:51.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:51.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.experimental.forceDyeableAttachments was corrected from null to its default, false. 
-[01Jul2025 19:46:51.630] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/prepucioserver/servidor_minecraft/./world/serverconfig/jeg-server.toml is not correct. Correcting
-[01Jul2025 19:46:51.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
-[01Jul2025 19:46:51.634] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:51.634] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[01Jul2025 19:46:51.634] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[01Jul2025 19:46:51.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[01Jul2025 19:46:51.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[01Jul2025 19:46:51.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[01Jul2025 19:46:51.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[01Jul2025 19:46:51.640] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[01Jul2025 19:46:51.640] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[01Jul2025 19:46:51.640] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[01Jul2025 19:46:51.641] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[01Jul2025 19:46:51.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[01Jul2025 19:46:51.643] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[01Jul2025 19:46:51.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
-[01Jul2025 19:46:51.648] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
-[01Jul2025 19:46:51.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
-[01Jul2025 19:46:51.653] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
-[01Jul2025 19:46:51.654] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
-[01Jul2025 19:46:51.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
-[01Jul2025 19:46:51.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
-[01Jul2025 19:46:51.661] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
-[01Jul2025 19:46:51.663] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 3. 
-[01Jul2025 19:46:51.664] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
-[01Jul2025 19:46:51.666] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
-[01Jul2025 19:46:51.668] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
-[01Jul2025 19:46:51.669] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
-[01Jul2025 19:46:51.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
-[01Jul2025 19:46:51.675] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
-[01Jul2025 19:46:51.679] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
-[01Jul2025 19:46:51.680] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
-[01Jul2025 19:46:51.684] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
-[01Jul2025 19:46:51.686] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
-[01Jul2025 19:46:51.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:51.694] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
-[01Jul2025 19:46:51.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
-[01Jul2025 19:46:51.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
-[01Jul2025 19:46:51.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
-[01Jul2025 19:46:51.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
-[01Jul2025 19:46:51.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
-[01Jul2025 19:46:51.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
-[01Jul2025 19:46:51.716] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
-[01Jul2025 19:46:51.719] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
-[01Jul2025 19:46:51.722] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
-[01Jul2025 19:46:51.725] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
-[01Jul2025 19:46:51.727] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
-[01Jul2025 19:46:51.730] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_viewing_enabled was corrected from null to its default, true. 
-[01Jul2025 19:46:51.733] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_view_distance was corrected from null to its default, 16. 
-[01Jul2025 19:46:51.736] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla_tool_block_breaking was corrected from null to its default, true. 
-[01Jul2025 19:46:51.738] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key always_drop was corrected from null to its default, true. 
-[01Jul2025 19:46:51.741] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_breaking_non_owned_blocks was corrected from null to its default, false. 
-[01Jul2025 19:46:51.743] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key non_owned_breaking_slowdown was corrected from null to its default, 1.0. 
-[01Jul2025 19:46:51.745] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
-[01Jul2025 19:46:51.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
-[01Jul2025 19:46:51.780] [Server thread/INFO] [Framework/]: Loading server configs...
-[01Jul2025 19:46:51.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Jul2025 19:47:00.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jul2025 19:47:01.455] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 19:47:01.456] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 19:47:01.782] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 19:47:02.228] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 19:47:02.731] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 19:47:03.236] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 19:47:03.784] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[01Jul2025 19:47:04.229] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[01Jul2025 19:47:04.727] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[01Jul2025 19:47:05.255] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[01Jul2025 19:47:05.727] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[01Jul2025 19:47:06.231] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[01Jul2025 19:47:06.731] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[01Jul2025 19:47:07.094] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[01Jul2025 19:47:07.095] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[01Jul2025 19:47:07.096] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[01Jul2025 19:47:07.096] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[01Jul2025 19:47:08.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[01Jul2025 19:47:08.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[01Jul2025 19:47:08.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[01Jul2025 19:47:08.731] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[01Jul2025 19:47:08.878] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[01Jul2025 19:47:08.881] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[01Jul2025 19:47:08.883] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[01Jul2025 19:47:08.884] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[01Jul2025 19:47:09.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[01Jul2025 19:47:09.728] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[01Jul2025 19:47:10.347] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[01Jul2025 19:47:10.728] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[01Jul2025 19:47:11.090] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[01Jul2025 19:47:11.092] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[01Jul2025 19:47:11.092] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[01Jul2025 19:47:11.093] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[01Jul2025 19:47:11.229] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[01Jul2025 19:47:11.767] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[01Jul2025 19:47:12.232] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[01Jul2025 19:47:12.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[01Jul2025 19:47:12.865] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[01Jul2025 19:47:12.866] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[01Jul2025 19:47:12.866] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[01Jul2025 19:47:12.867] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[01Jul2025 19:47:13.259] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[01Jul2025 19:47:13.741] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[01Jul2025 19:47:14.282] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[01Jul2025 19:47:14.735] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[01Jul2025 19:47:15.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[01Jul2025 19:47:15.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[01Jul2025 19:47:16.149] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[01Jul2025 19:47:16.151] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[01Jul2025 19:47:16.151] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[01Jul2025 19:47:16.151] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[01Jul2025 19:47:16.300] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[01Jul2025 19:47:16.751] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[01Jul2025 19:47:17.248] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[01Jul2025 19:47:17.733] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[01Jul2025 19:47:18.226] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[01Jul2025 19:47:18.486] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[01Jul2025 19:47:18.487] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[01Jul2025 19:47:18.487] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[01Jul2025 19:47:18.488] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[01Jul2025 19:47:18.750] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[01Jul2025 19:47:19.230] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[01Jul2025 19:47:19.730] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[01Jul2025 19:47:20.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[01Jul2025 19:47:20.738] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[01Jul2025 19:47:21.231] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[01Jul2025 19:47:21.239] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[01Jul2025 19:47:21.240] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[01Jul2025 19:47:21.241] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[01Jul2025 19:47:21.241] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[01Jul2025 19:47:21.752] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[01Jul2025 19:47:22.227] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
-[01Jul2025 19:47:22.732] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[01Jul2025 19:47:23.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[01Jul2025 19:47:23.736] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[01Jul2025 19:47:24.230] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[01Jul2025 19:47:24.731] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[01Jul2025 19:47:24.962] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[01Jul2025 19:47:24.963] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[01Jul2025 19:47:24.963] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[01Jul2025 19:47:24.964] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[01Jul2025 19:47:25.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[01Jul2025 19:47:25.730] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[01Jul2025 19:47:26.229] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[01Jul2025 19:47:26.727] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[01Jul2025 19:47:27.229] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[01Jul2025 19:47:27.610] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[01Jul2025 19:47:27.611] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[01Jul2025 19:47:27.611] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[01Jul2025 19:47:27.611] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[01Jul2025 19:47:27.744] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[01Jul2025 19:47:28.241] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[01Jul2025 19:47:28.727] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[01Jul2025 19:47:28.796] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 28070 ms
-[01Jul2025 19:47:28.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (37.177s)! For help, type "help"
-[01Jul2025 19:47:28.820] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Jul2025 06:18:02.711] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2152 advancements
+[02Jul2025 06:18:03.910] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Jul2025 06:18:03.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Jul2025 06:18:03.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Jul2025 06:18:03.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Jul2025 06:18:04.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Jul2025 06:18:04.199] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Jul2025 06:18:04.319] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Jul2025 06:18:04.320] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Jul2025 06:18:04.320] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Jul2025 06:18:04.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Jul2025 06:18:04.369] [Server thread/INFO] [Framework/]: Loading server configs...
+[02Jul2025 06:18:04.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Jul2025 06:18:08.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Jul2025 06:18:14.737] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.777] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.787] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.825] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.838] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.845] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.856] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.869] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.883] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:14.904] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:15.033] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:15.068] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:15.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:15.158] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2025 06:18:15.658] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[02Jul2025 06:18:16.158] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[02Jul2025 06:18:16.584] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8426 ms
+[02Jul2025 06:18:16.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.248s)! For help, type "help"
+[02Jul2025 06:18:16.622] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
