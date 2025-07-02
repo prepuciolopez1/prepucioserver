@@ -199,3 +199,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [02Jul2025 19:37:19.389] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 28007 ms
 [02Jul2025 19:37:19.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (35.140s)! For help, type "help"
 [02Jul2025 19:37:19.412] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Jul2025 19:47:05.464] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sarydark_23[/127.93.219.99:50543] logged in with entity id 294 at (-8.5, 71.0, -23.5)
+[02Jul2025 19:47:05.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sarydark_23 joined the game
+[02Jul2025 19:47:31.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Sarydark_23 a server operator
+[02Jul2025 19:47:36.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sarydark_23: Set the time to 13000]
+[02Jul2025 19:48:00.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sarydark_23: Set own game mode to Creative Mode]
+[02Jul2025 19:51:10.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sarydark_23 has reached the goal [I see you]
+[02Jul2025 19:53:52.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sarydark_23 has reached the goal [I am behind you. Hello!]
+[02Jul2025 19:54:32.968] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sarydark_23 lost connection: Disconnected
+[02Jul2025 19:54:32.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sarydark_23 left the game
